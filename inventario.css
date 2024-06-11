@@ -1,0 +1,42 @@
+
+
+table{
+    border: solid black 1px;
+    position: absolute;
+    width: 80%;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px;
+    left: 10%;
+    top: 30%;
+}
+
+
+th,td{
+    background-color: #ffffff33;
+    padding: 15px;
+
+}
+
+th{
+    text-align: left;
+}
+
+thead th {
+    background-color:#F2B705 ;
+}
+tbody tr:hover{
+    background-color: #FA4F10 ;
+}
+
+
+select {
+     background: transparent;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 250px;
+  }
